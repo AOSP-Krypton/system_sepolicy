@@ -108,6 +108,7 @@
     password_slot_metadata_file
     permissionmgr_service
     postinstall_apex_mnt_dir
+    proc_cpu_alignment
     recovery_socket
     role_service
     rollback_service
