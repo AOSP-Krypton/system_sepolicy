@@ -998,6 +998,7 @@ full_treble_only(`
     -iorap_inode2filename
     -iorap_prefetcherd
     -kernel # loads /vendor/firmware
+    -surfaceflinger
     userdebug_or_eng(`-heapprofd')
     -shell
     -system_executes_vendor_violators
