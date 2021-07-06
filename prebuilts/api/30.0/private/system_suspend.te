@@ -23,4 +23,5 @@ neverallow {
     -system_suspend # implements system_suspend_control_service
     -system_server # configures system_suspend via ISuspendControlService
     -traceur_app # tracing
+    -system_app
 } system_suspend_control_service:service_manager find;
