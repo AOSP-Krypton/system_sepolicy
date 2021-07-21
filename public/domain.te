@@ -1170,6 +1170,7 @@ neverallow {
   -system_server #populate com.android.providers.settings/databases/settings.db.
   -installd # creation of app sandbox
   -iorap_inode2filename
+  -iorap_prefetcherd
   -traced_probes # resolve inodes for i/o tracing.
                  # only needs open and read, the rest is neverallow in
                  # traced_probes.te.
